@@ -1,5 +1,4 @@
 import { Flex, Image, rem } from '@mantine/core'
-import './Logo.css'
 
 export default function Logo() {
   return (

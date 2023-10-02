@@ -2,7 +2,18 @@ body {
   background: rgb(16, 6, 41);
   background: radial-gradient(
     circle,
-    rgba(16, 6, 41, 1) 0%,
-    rgba(5, 1, 10, 1) 100%
+    rgb(44, 9, 71) 18%,
+    rgba(9, 1, 17, 1) 40%
   );
+  background-position: center;
+  animation: gradientAnimation 7s linear infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 200% 200%;
+  }
 }
